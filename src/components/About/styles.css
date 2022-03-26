@@ -1,0 +1,13 @@
+.content-container {
+    padding: 0px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container h2 {
+    font-size: 28px;
+}
+
+.content-container p {
+    font-size: 24px;
+}

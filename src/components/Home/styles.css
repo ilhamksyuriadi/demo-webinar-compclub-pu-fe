@@ -1,0 +1,32 @@
+.blog-container {
+    padding: 0px 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: #c7ecff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgb(230, 230, 230);
+    transition: 0.5s;
+}
+
+.blog-card:hover {
+    box-shadow: 10px 5px 5px rgb(146, 146, 146);
+}
+
+.blog-card a {
+    text-decoration: none;
+    color: #081f2b;
+    transition: 0.5s;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #081f2b;
+}
+
+.blog-card a:hover {
+    background-color: #1e506b;
+    color: white;
+}
